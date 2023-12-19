@@ -1,0 +1,172 @@
+:root {
+  --border-color: rgb(227, 227, 227);
+  --accent-color: #50A3D9;
+}
+
+.material-symbols-outlined {
+  scale: .8
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bottom-border {
+  border-bottom: 1px solid var(--border-color);
+}
+
+aside.side-bar {
+  max-width: 30%;
+  border-right: 1px solid var(--border-color);
+}
+
+div.head {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 0 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  /* border-bottom: 1px solid var(--border-color); */
+}
+
+h2.head_name {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h2.head_title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--accent-color);
+  margin-top: 1rem;
+}
+
+img.head_photo {
+  width: 150px;
+  border-radius: 80px;
+  padding: 2rem 0 2rem 0;
+}
+
+ul.contact-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem
+}
+
+li.head_link-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem
+}
+
+img.link-logo {
+  width: 1rem
+}
+
+a.link {
+  text-decoration: none;
+  color: black;
+}
+
+section.about-me {
+  /* margin-top: 1rem; */
+  margin: 1rem;
+}
+
+h3.aside_title {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: x-large;
+}
+
+section.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+li.contacts_item {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+h3.main_section-title {
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+
+h3.main-section_subtitle {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+ul.experiences-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 2rem
+}
+
+span.experience_period {
+  font-weight: 600;
+}
+
+.list_item-arrow {
+  list-style-type: "\276F";
+}
+
+
+
+ul.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: .6rem;
+  /* list-style-type: "\203A"; */
+}
+
+section.skills,
+section.education {
+  margin-top: 2rem;
+}
+
+section.education_item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+span.education_place {
+  font-weight: 600;
+}
+
+.contact_link {
+  font-size: .9rem;
+  text-align: center;
+}
+
+.skills-title{
+  color: var(--accent-color);
+}
