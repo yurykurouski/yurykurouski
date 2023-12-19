@@ -69,7 +69,7 @@ ul.contact-list {
 li.head_link-item {
   display: flex;
   align-items: center;
-  gap: 1rem
+  gap: .4rem
 }
 
 img.link-logo {
