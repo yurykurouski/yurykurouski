@@ -133,11 +133,10 @@ span.experience_period {
   font-weight: 600;
 }
 
-.list_item-arrow {
+li.list_item-arrow {
   list-style-type: "\276F";
+  padding-left: .1rem;
 }
-
-
 
 ul.list {
   display: flex;
