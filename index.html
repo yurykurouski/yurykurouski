@@ -9,170 +9,238 @@
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
   <title>CV Yury Kurouski</title>
 </head>
 
 <body>
   <div class="container">
-    <aside class="side-bar">
-      <!-- HEAD -->
-      <div class="head bottom-border">
+    <!-- HEAD -->
+    <div class="head bottom-border">
+      <header>
         <div class="name-title">
           <h2 class="head_name">Yury Kurouski</h2>
           <h2 class="head_title">Software engineer</h2>
         </div>
-        <img src="./assets/photo.jpeg" alt="Photo" class="head_photo">
-        <ul class="head_links contact-list">
-          <li class="head_link-item">
-            <img src="./assets/linkedin.svg" alt="LinkedIn logo" class="link-logo">
-            <a href="https://www.linkedin.com/in/yury-kurouski" class="header_link link">
-              Yury Kurouski
-            </a>
-          </li>
-          <li class="head_link-item">
-            <img src="./assets/github-mark.svg" alt="GitHub logo" class="link-logo link_github">
-            <a href="https://github.com/yurykurouski" class="header_link link">
-              yurykurouski
-            </a>
-          </li>
-        </ul>
-      </div>
+        <div class="img-container">
+          <img src="./assets/photo.jpeg" alt="Photo" class="head_photo">
+          <div class="img-shadow" />
+        </div>
+      </header>
 
+      <ul class="head_links contact-list">
+        <li class="head_link-item">
+          <img src="./assets/linkedin.svg" alt="LinkedIn logo" class="link-logo">
+          <a href="https://www.linkedin.com/in/yury-kurouski" class="header_link link">
+            Yury Kurouski
+          </a>
+        </li>
+
+        <li class="head_link-item">
+          <img src="./assets/github-mark.svg" alt="GitHub logo" class="link-logo link_github">
+          <a href="https://github.com/yurykurouski" class="header_link link">
+            yurykurouski
+          </a>
+        </li>
+
+        <li class="head_link-item">
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+          <a href="mailto:yurykurouski@gmail.com" class="contact_link link contact_mail">yurykurouski@gmail.com</a>
+        </li>
+
+        <li class="head_link-item">
+          <span class="material-symbols-outlined">
+            location_on
+          </span>
+          Warsaw, Poland
+        </li>
+
+      </ul>
+
+    </div>
+
+    <main class="main">
       <!-- ABOUT ME -->
-      <section class="about-me bottom-border">
-        <h3 class="aside_title">
+      <section class="about-me">
+        <h3 class="section-title">
           About me
         </h3>
         <p class="aside_about">
-          I am a software developer with almost of 3 years experience in React-Native and web development.
-          Proficient in
-          technologies such as React-Native, Typescript, SignalR, Redux-Saga, MobX, GraphQl, Axios, and experienced in
-          Agile and
-          Scrum processes. I have implemented accessibility features in the Healthcare domain digital platform and
-          developed chat
-          functionality. As a mentor in the Rolling Scope School course, I have guided and supported four mentees.
+          Software Engineer with 3 years of extensive experience in JavaScript and TypeScript frameworks.
+          Worked with React Native and React in Healthcare, Commercial Services and Social fields.
           <br>
+          Experienced in
+          collaborating in large cross-functional globally distributed teams and small short-term local ones. A
+          proactive and
+          collaborative team player with a strong desire to learn new technologies and dive into software architecture.
           <br>
-          31 year old.
+          As a mentor in the <a href="https://rs.school" class="link link_underlined" target="_blank">Rolling Scope
+            School</a>
+          JavaScript/React courses,
+          I have
+          successfully guided four mentees.
+          <br>
+          In my free time developing currency converter application: <a
+            href="https://github.com/yurykurouski/Fancy-converter" class="link link_underlined" target="_blank">Fancy
+            converter.</a>
         </p>
       </section>
-
-
-      <section class="contact">
-        <h3 class="aside_title">
-          Contact
-        </h3>
-        <ul class="contact_list contact-list">
-          <li class="contacts_item">
-            <span class="material-symbols-outlined">
-              mail
-            </span>
-            <a href="mailto:ymorpheus@gmail.com" class="contact_link link contact_mail">ymorpheus@gmail.com</a>
-          </li>
-          <li class="contacts_item">
-            <span class="material-symbols-outlined">
-              call
-            </span>
-            <a href="tel:+48 791475214" class="contact_link link contact_phone">+ 48 791475214</a>
-          </li>
-          <li class="contacts_item">
-            <span class="material-symbols-outlined">
-              location_on
-            </span>
-            Warsaw, Poland
-          </li>
-        </ul>
-      </section>
-    </aside>
-
-    <main class="main">
-      <!-- EXPERIENCE -->
-      <section class="experience">
-        <h3 class="experience_header main_section-title">
-          Experiences
-        </h3>
-        <ul class="experiences-list">
-          <li>
-            <h3 class="main-section_subtitle">
-              Software Engineer
-            </h3>
-            <span class="experience_period">
-              EPAM - Since July 2021
-            </span>
-
-            <ul class="experience_description list">
-              <li class="experience_item list_item-arrow">Migrate application from in-app purchases to subscriptions.
-              </li>
-              <li class="experience_item list_item-arrow">
-                Healthcare domain project: build digital platform to improve consumers access and experience in
-                healthcare,
-                thereby
-                improving health outcomes and reducing aggregate costs.
-              </li>
-              <li class="experience_item list_item-arrow">Mobile application to accelerate social networking within the
-                company.</li>
-              <li class="experience_item list_item-arrow">
-                Development of a new platform to switch from the SAAS solution and create
-                additional
-                opportunities for ongoing business in the field of kick/scooter/car -sharing.
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <h3 class="main-section_subtitle">
-              Team Leader
-            </h3>
-            <span class="experience_period">
-              Rawicom PL - July 2018 to October 2020
-            </span>
-
-            <ul class="experience_description list">
-              <li class="experience_item list_item-arrow">Solar systems installations. Team approx of 7ppl.</li>
-              <li class="experience_item list_item-arrow">Resolving all problems that might happens on building site:
-                materials needs,
-                some client requirements, being stick to the
-                project deadlines.</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-
       <!-- SKILLS -->
       <section class="skills">
-        <h3 class="main_section-title skills-title">
+        <h3 class="section-title">
           Skills
         </h3>
 
         <ul class="skills-list list">
-          <li class="skills_item list_item-arrow">React-Native</li>
-          <li class="skills_item list_item-arrow">Typescript</li>
-          <li class="skills_item list_item-arrow">SignalR</li>
-          <li class="skills_item list_item-arrow">Redux-Saga, MobX, GraphQl, Axios</li>
-          <li class="skills_item list_item-arrow">Agile and Scrum processes</li>
-          <li class="skills_item list_item-arrow">B2 English level</li>
-          <li class="skills_item list_item-arrow">Polish is my third native</li>
+          <li class="skills_item">
+            <span class="skill-name">Programming languages:</span>
+            <span>JavaScript, TypeScript</span>
+          </li>
+          <li class="skills_item">
+            <span class="skill-name">Technologies:</span>
+            <span>React Native, React, SwiftUI, Jest, SignalR, GraphQL, Redux Toolkit, REST</span>
+          </li>
+          <li class="skills_item">
+            <span class="skill-name">Languages:</span>
+            <span>English - B2, Polish - B2, Belarusian - native, russian - native</span>
+          </li>
+        </ul>
+      </section>
+      <!-- EXPERIENCE -->
+      <section class="experience">
+        <h3 class="section-title">
+          Work experience
+        </h3>
+        <ul class="experiences-list">
+          <li>
+            <span class="work-title">
+              <h3 class="main-section_subtitle">
+                Software Engineer
+              </h3>
+              <span class="experience_period">
+                EPAM - Since July 2021
+              </span>
+            </span>
+
+            <h4 class="experience_title">React Native application for distributing books from on of the world-largest
+              publishers, US customer:</h4>
+            <ul class="experience_description list">
+              <li class="experience_item">Migrate application from in-app purchases to subscription
+                model
+              </li>
+              <li class="experience_item">Implement past purchases validation logic to make them
+                available in the actual application
+              </li>
+              <li class="experience_item">Refactor the existing codebase to comply with code style
+                guidelines. Migrate from Flow to TS, update bunch of packages to actual versions, bump RN version to the
+                actual
+              </li>
+            </ul>
+
+            <span class="experience_tech-stack">Tech stack: Typescript, React Native, React Native IAP, Redux Toolkit,
+              React Native SQLite storage</span>
+            <br>
+
+            <h4 class="experience_title">Application for rent scooters, GE customer:</h4>
+            <ul class="experience_description list">
+              <li class="experience_item">Initial configuration for the project: TS, ESLint, Husky
+                hooks, some core functionality for future use
+              </li>
+              <li class="experience_item">Work with map provider: render functional zones,
+                investigate for ability to use in planned features, track current position, etc.
+              </li>
+              <li class="experience_item">Prioritize planned features for implementation due to lack of
+                team capacity
+              </li>
+              <li class="experience_item">Build tool to make easier collaborative work with Automation
+                Testing engineer
+              </li>
+              <li class="experience_item">Conducted demo sessions to the direct stakeholders with 20+
+                people in the audience
+              </li>
+            </ul>
+            <span class="experience_tech-stack">Tech stack: Typescript, React Native, Redux-Saga, React Native
+              Maps, React Native Paper</span>
+
+            <h4 class="experience_title">Mobile application to accelerate social networking within the
+              company, LT customer:</h4>
+            <ul class="experience_description list">
+              <li class="experience_item">Acted as key FE developer
+              </li>
+              <li class="experience_item">Took ownership and designed chat functionality
+              </li>
+              <li class="experience_item">Documented chat-related functionality knowledge base and
+                conducted 2
+                knowledge sharing meetings for 5+ project developers
+              </li>
+              <li class="experience_item">Supervised 2 junior developers
+              </li>
+            </ul>
+            <span class="experience_tech-stack">Tech stack: Typescript, React Native, SignalR, React Native
+              Maps, </span>
+
+            <h4 class="experience_title">React Native healthcare insurance application, US customer:</h4>
+            <ul class="experience_description list">
+              <li class="experience_item">Feature development with alignment to accessibility
+                requirements for applications in Health category
+              </li>
+              <li class="experience_item">Work in close collaboration with BA, QA's and backend team
+              </li>
+              <li class="experience_item">Participated in feature implementation designing
+              </li>
+            </ul>
+            <span class="experience_tech-stack">Tech stack: Typescript, React Native, GraphQL, React Native Render HTML
+            </span>
+          </li>
+
+          <li>
+            <span class="work-title">
+              <h3 class="main-section_subtitle">
+                Team Lead
+              </h3>
+              <span class="experience_period">
+                Rawicom PL - July 2018 to October 2020
+              </span>
+            </span>
+
+            <ul class="experience_description list">
+              <li class="experience_item">
+                Solar systems installations. Team capacity: 5 - 20ppl
+              </li>
+              <li class="experience_item">
+                Resolving all problems that might happens on building site:
+                materials needs,
+                changed client requirements, being stick to the
+                project deadlines
+              </li>
+              <li class="experience_item">Upfront planning project construction. Task delegation between
+                team members
+              </li>
+            </ul>
+          </li>
         </ul>
       </section>
 
       <!-- EDUCATION -->
       <section class="education">
-        <h3 class="experience_header main_section-title">
+        <h3 class="section-title">
           Education
         </h3>
         <section class="education_item">
           <h3 class="main-section_subtitle">
-            Bachelor
+            EHU/EPAM School of Digital Engineering
           </h3>
-          <span class="education_place">
-            EHU
+          <span class="education_range">
+            Bachelor's Degree in Computer Science
           </span>
           <span class="education_range">
             2022 - 2026
-          </span>
-          <span class="education_range">
-            Computer science
           </span>
         </section>
       </section>
