@@ -19,7 +19,7 @@ In my free time, I am working on my pet project,  <a href="https://github.com/yu
 <br>
 <b>Languages is speak:</b> English - B2, Polish - B2, Belarusian - native, rusian - native
 </p>
-Find me here:
+Reach me here:
 <li>
   <img src="./assets/linkedin.svg" alt="LinkedIn logo" width="16" align='center'>
   <a href='https://www.linkedin.com/in/yury-kurouski/'>
