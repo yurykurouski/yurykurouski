@@ -10,7 +10,8 @@ Experienced in collaborating in large cross-functional globally distributed team
 As a mentor in the <a href='https://rs.school'>Rolling Scope School</a> JavaScript/React courses, I have successfully guided four mentees. Currently, taking a <a href='https://rs.school/nodejs/'a>NodeJS</a> course there.
 </p>
 <p>
-In my free time, I am working on my pet project,  <a href="https://github.com/yurykurouski/Fancy-converter">Fancy Converter</a>.
+Free time usually spending at working on my pet project (<a href="https://github.com/yurykurouski/Fancy-converter">Fancy Converter</a>) and studies.
+Love long cycle trips and listening to music (as well as visiting concerts! :)).
 </p>
 <p>
 <b>Programming languages im proficient in:</b> JavaScript, Typescript
