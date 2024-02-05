@@ -1,0 +1,17 @@
+@import url('./styles.css');
+
+h3,
+h4,
+li,
+br,
+b {
+  display: none;
+}
+
+p {
+  margin-bottom: .4rem;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}

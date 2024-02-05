@@ -14,6 +14,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
+
+  <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+
   <title>CV Yury Kurouski</title>
 </head>
 
@@ -71,29 +74,12 @@
         <h3 class="section-title">
           About me
         </h3>
-        <p class="aside_about">
-          Software Engineer with 3 years of extensive experience in JavaScript and TypeScript frameworks.
-          Worked with React Native and React in Healthcare, Commercial Services and Social fields.
-          <br>
-          Experienced in
-          collaborating in large cross-functional globally distributed teams and small short-term local ones. A
-          proactive and
-          collaborative team player with a strong desire to learn new technologies and dive into software architecture.
-          <br>
-          As a mentor in the <a href="https://rs.school" class="link link_underlined" target="_blank">Rolling Scope
-            School</a>
-          JavaScript/React courses,
-          I have
-          successfully guided four mentees. Currently, taking a <a href="https://rs.school/nodejs/"
-            class="link link_underlined">NodeJS</a> course
-          there.
-          <br>
-          Free time usually spending at working on my pet project (<a
-            href="https://github.com/yurykurouski/Fancy-converter" class="link link_underlined">Fancy Converter</a>) and
-          studies.
-          <br>
-          Love long cycle trips and listening to music (as well as visiting concerts! :)).
-        </p>
+
+        <zero-md src="/readme.md">
+          <template>
+            <link rel="stylesheet" href="/markdown-styles.css" />
+          </template>
+        </zero-md>
       </section>
       <!-- SKILLS -->
       <section class="skills">
