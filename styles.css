@@ -1,10 +1,10 @@
 :root {
   --border-color: rgb(227, 227, 227);
-  --accent-color: #50A3D9;
+  --accent-color: #50a3d9;
 }
 
 .material-symbols-outlined {
-  scale: .8;
+  scale: 0.8;
 }
 
 .mail-positon {
@@ -55,7 +55,7 @@ div.name-title {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: inherit
+  height: inherit;
 }
 
 h2.head_name {
@@ -92,14 +92,19 @@ div.img-shadow {
 }
 
 img.head_photo::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 100%;
   right: 100%;
   bottom: 0;
   left: 0;
-  background: radial-gradient(100% 100% at 50% 50%, #545C6F 0, #3E4452 40%, #ffffff00 50%);
+  background: radial-gradient(
+    100% 100% at 50% 50%,
+    #545c6f 0,
+    #3e4452 40%,
+    #ffffff00 50%
+  );
   height: 300px;
   width: 300px;
 }
@@ -110,7 +115,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 100px
+  height: 100px;
 }
 
 ul.contact-list {
@@ -125,12 +130,12 @@ ul.contact-list {
 li.head_link-item {
   display: flex;
   align-items: flex-end;
-  gap: .4rem
+  gap: 0.4rem;
 }
 
 img.link-logo {
   width: 1rem;
-  padding-left: 4px
+  padding-left: 4px;
 }
 
 a.link,
@@ -165,7 +170,7 @@ h4.experience_title {
 }
 
 ul.experience_description {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 span.experience_tech-stack {
@@ -176,7 +181,7 @@ ul.experiences-list {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  gap: 2rem
+  gap: 2rem;
 }
 
 li.experience_item {
@@ -196,8 +201,8 @@ span.experience_period {
 ul.list {
   display: flex;
   flex-direction: column;
-  margin-top: .5rem;
-  gap: .6rem;
+  margin-top: 0.5rem;
+  gap: 0.6rem;
   margin-left: 1rem;
 }
 
@@ -213,7 +218,7 @@ section.education_item {
 }
 
 .contact_link {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -247,7 +252,7 @@ section.education {
 
   ul.head_links {
     display: flex;
-    gap: .8rem;
+    gap: 0.8rem;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -256,12 +261,12 @@ section.education {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #202124;
-    color: white
+    color: white;
   }
 
   a.link,
   a.link:visited {
-    color: white
+    color: white;
   }
 
   div.img-shadow {
@@ -274,7 +279,12 @@ section.education {
 }
 
 @media print {
-  div.img-shadow {
+  div.img-shadow,
+  div.img-container {
     display: none;
+  }
+
+  div.head {
+    padding-bottom: 0;
   }
 }

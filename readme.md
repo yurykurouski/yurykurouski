@@ -7,7 +7,7 @@ Experienced with React Native and React in Healthcare, Commercial Services and S
 Experienced in collaborating in large cross-functional globally distributed teams and small short-term local ones. A proactive and collaborative team player with a strong desire to learn new technologies and dive into software architecture.
 </p>
 <p>
-As a mentor in the <a href="https://rs.school" class="link link_underlined">Rolling Scope School</a> JavaScript/React courses, I have successfully guided four mentees. Currently, taking a <a href="https://rs.school/nodejs/" class="link link_underlined">NodeJS</a> course there.
+As a mentor in the <a href="https://rs.school" class="link link_underlined">Rolling Scope School</a> JavaScript/React courses, I have successfully guided four mentees. Recently, <a href='https://app.rs.school/certificate/5ase071b'>finished</a> a <a href="https://rs.school/nodejs/" class="link link_underlined">NodeJS</a> course with knowledge in GraphQL, WebSockets, NestJS and bare NodeJS.
 </p>
 <p>
 Free time usually spending at working on my pet project (<a href="https://github.com/yurykurouski/Fancy-converter" class="link link_underlined">Fancy Converter</a>) and studies.
