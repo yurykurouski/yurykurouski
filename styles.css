@@ -5,6 +5,7 @@
 
 .material-symbols-outlined {
   scale: 0.8;
+  width: 20px
 }
 
 .mail-positon {
@@ -242,6 +243,10 @@ section.education {
   margin-top: 1rem;
 }
 
+br.print-extra{
+  display: none
+}
+
 @media screen and (max-width: 768px) {
   header {
     height: auto;
@@ -286,5 +291,9 @@ section.education {
 
   div.head {
     padding-bottom: 0;
+  }
+
+  br.print-extra{
+    display: inline
   }
 }
