@@ -1,6 +1,6 @@
 <h3 align='center'>Hi, im Yury!</h3>
 <p>
-Software Engineer with 3 years of extensive experience in JavaScript and TypeScript frameworks.
+Software Engineer with extensive experience in JavaScript and TypeScript frameworks.
 Experienced with React Native and React in Healthcare, Commercial Services and Social fields projects.
 <p>
 <p>
